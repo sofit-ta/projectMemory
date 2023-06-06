@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="229.0" prefWidth="486.0" style="-fx-background-color: #175275;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectmemory.HelloController">
+   <children>
+      <Pane layoutY="134.0" prefHeight="229.0" prefWidth="486.0" style="-fx-background-color: #FAEBD7;">
+         <children>
+            <Text layoutX="87.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите уровень сложности" textAlignment="CENTER" wrappingWidth="315.57568359375">
+               <font>
+                  <Font name="System Italic" size="25.0" />
+               </font>
+            </Text>
+            <Button fx:id="firstLevelButton" layoutX="77.0" layoutY="123.0" mnemonicParsing="false" onMouseClicked="#onMouse1Clicked" text="Легкий" />
+            <Button fx:id="secondLevelButton" layoutX="210.0" layoutY="123.0" mnemonicParsing="false" onMouseClicked="#onMouse2Clicked" text="Средний" />
+            <Button fx:id="thirdLevelButton" layoutX="343.0" layoutY="123.0" mnemonicParsing="false" onMouseClicked="#onMouse3Clicked" text="Сложный" />
+         </children>
+      </Pane>
+      <Text fill="#fee9ec" layoutX="124.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Запоминайка" textAlignment="CENTER" wrappingWidth="231.57568359375" AnchorPane.bottomAnchor="271.828125" AnchorPane.leftAnchor="128.0" AnchorPane.rightAnchor="120.0" AnchorPane.topAnchor="51.12890625">
+         <font>
+            <Font name="System Italic" size="34.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
