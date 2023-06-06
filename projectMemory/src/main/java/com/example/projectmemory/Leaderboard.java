@@ -15,7 +15,7 @@ import java.util.*;
 
 public class Leaderboard  {
     private final double timeFromFirstCode;
-    private final TextField timeField = new TextField();
+    private final Label timeField = new Label();
 
     public Leaderboard(double time) {
         this.timeFromFirstCode = time;
@@ -267,7 +267,7 @@ public class Leaderboard  {
 
 
                 nameField.clear();
-                timeField.clear();
+
 
 
             } catch (NumberFormatException e) {
